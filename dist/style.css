@@ -1,0 +1,136 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Chelsea Market';
+}
+h1 {
+    text-align: center;
+    padding: 1rem;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto 50px;
+}
+header>*{
+    background-color: #cdc8c2;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header>*:hover{
+    background-color: rgb(24, 103, 207);
+    cursor: pointer;
+}
+.active{
+    background-color: rgb(24, 103, 207);
+}
+main>p {
+    margin: 50px auto;
+    font-size: 30px;
+    text-align: center;
+}
+#content>img{
+    width: 100%;
+}
+.bbq {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 5fr 2fr;
+    margin-bottom:20px ;
+}
+.bbq>img{
+    width: 100%;
+}
+.dolma{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr 5fr;
+}
+.dolma>img{
+    width: 100%;
+}
+section p{
+    font-size: 50px;
+    text-align: center;
+}
+.drinks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.drinks img{
+    width: 500px;
+}
+section>p {
+    font-size: 30px;
+}
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: wheat;
+}
+footer>div{
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu div {
+    width: 100%;
+    text-align: center;
+}
+.menu h4{
+    font-size: 40px;
+}
+form{
+    display: grid;
+    justify-content: center;
+    background-color: #ca2a19;
+    grid-gap: 20px;
+    width: 600px;
+    padding: 30px;
+}
+form div{
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    border: none;
+    width: 400px;
+}
+.subpage3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label{
+    font-size: 20px;
+    color: white;
+    padding-right: 10px;
+}
+.mes{
+    height: 100px;
+}
+button {
+    width: 120px;
+    height: 40px;
+    justify-self: center;
+}
+footer {
+    margin-top: 50px ;
+}
